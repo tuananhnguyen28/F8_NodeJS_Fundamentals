@@ -1,0 +1,5 @@
+- git clone https://...git
+- git add . (Thêm tất cả các folder và các file bên trong nó, với root là repository gốc)
+- git commit -m "<nội dung commit>"
+- git remote add origin https://...git
+- git push -u origin master

@@ -1,7 +1,7 @@
 // Install Express: npm install express
 // Run Project: node index.js
 // Install Nodemon: npm i nodemon --save-dev
-// Run After Install Nodemon: npm start
+// Run Project After Install Nodemon: npm start
 
 const express = require('express');
 const app = express();
