@@ -4,13 +4,14 @@
   "description": "The coding and practise about NodeJS programming language",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals.git"
   },
-  "author": "",
+  "author": "NguyenTuan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals/issues"
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
