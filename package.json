@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals/issues"
   },
-  "homepage": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals#readme"
+  "homepage": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
