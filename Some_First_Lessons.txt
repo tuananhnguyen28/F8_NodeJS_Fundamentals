@@ -1,0 +1,11 @@
+Lesson 01: Lời khuyên trước khoá học
+Path Source: https://fullstack.edu.vn/learning/nodejs/nodejs-intro
+
+Lesson 02: HTTP protocol
+Path Source: https://fullstack.edu.vn/learning/nodejs/http-protocol
+
+Lesson 03: SSR & CRS
+Path Source: https://fullstack.edu.vn/learning/nodejs/nodejs-ssr-csr
+
+Lesson 04: Install Node
+Path Source: https://fullstack.edu.vn/learning/nodejs/nodejs-install-node

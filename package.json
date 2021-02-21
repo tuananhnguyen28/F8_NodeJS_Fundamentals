@@ -1,0 +1,19 @@
+{
+  "name": "f8_blog_website",
+  "version": "1.0.0",
+  "description": "The coding and practise about NodeJS programming language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals/issues"
+  },
+  "homepage": "https://github.com/tuananhnguyen28/F8_NodeJS_Fundamentals#readme"
+}
