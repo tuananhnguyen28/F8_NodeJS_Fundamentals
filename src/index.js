@@ -31,4 +31,9 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
+app.get('/search', (req, res) => {
+  console.log(req.query.name);
+  res.render('search'); // exam: http://localhost:3000/search?name=nguyen tuan&age=28&tel= 037 898 3718
+})
+
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
