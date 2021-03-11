@@ -1,0 +1,5 @@
+If get the error: 'unable to get local issuer certificate'
+Input CLI line to resolve: npm config set strict-ssl false
+Then, after install all library or package, enable again: npm config set strict-ssl true
+
+----------
