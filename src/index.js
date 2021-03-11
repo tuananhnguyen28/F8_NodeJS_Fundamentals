@@ -11,6 +11,7 @@
 // npm i lint-staged --save-dev: verify and format code before commit
 // npm i husky --save-dev: automatically format code after commit
 // To lint-stage (modifield) any file, using CLI: git add <path-to-file>. Ex: git add src/index.js
+// If wanna run lint-staged manually, using CLI: npm run <property-name>. Ex: npm run beautiful
 
 const path = require('path');
 const express = require('express');
@@ -24,9 +25,9 @@ const route = require('./routes');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(
-    express.urlencoded({
-        extended: true,
-    }),
+  express.urlencoded({
+    extended: true,
+  }),
 );
 app.use(express.json());
 
@@ -35,17 +36,17 @@ app.use(morgan('combined'));
 
 // Template Engine
 app.engine(
-    'hbs',
-    handlebars({
-        extname: '.hbs',
-    }),
+  'hbs',
+  handlebars({
+    extname: '.hbs',
+  }),
 );
-app.set('     view engine', 'hbs');
-app.set("views", path.join(__dirname, 'resources/views'));
+app.set('   view engine', 'hbs');
+app.set('views', path.join(__dirname, 'resources/views'));
 
 // Routes init
 route(app);
 
-        app.listen(port, () =>
-            console.log(`Example app listening at http://localhost:${port}`),
-        );
+app.listen(port, () =>
+  console.log(`Example app listening at http://localhost:${port}`),
+);
